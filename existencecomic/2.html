@@ -1,0 +1,57 @@
+<!DOCTYPE>
+<head>
+	<title>Existence // 2</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+
+<body>
+
+<div id="master">
+	<img id="pearl" src="pearl.png">
+	<img id="page2" src="pg2.png">
+	
+	<img id="party" src="pg2party.png">
+	<img class="ppl" id="ppl1" src="ppl1.png" onclick="person()">
+	<img class="ppl" id="ppl2" src="ppl2.png" onclick="person2()">
+	<img class="ppl" id="ppl3" src="ppl3.png" onclick="person3()">
+	<img class="ppl" id="ppl4" src="ppl4.png" onclick="person4()">
+
+	<img id="photo" src="photo.png">
+	<img id="frame" src="photoframe.png">
+
+	<img id="elevatorbutt" src="elevatorbutt.png" onclick="newwindow()">
+
+	<img id="doorbell" src="doorbell.png" onclick="playAud()">
+</div>
+
+	<audio id="dingdong" hidden="true">
+	<source src="doorbell-1.mp3" type="audio/mpeg">
+
+
+	<script>	
+		var aud = document.getElementById("dingdong");
+	 	function playAud(){
+	 		aud.play();
+	 	}
+
+		function person(){
+			window.alert("Boy: 'Gosh, I'm so sorry to hear what happened to ... she was so nice...' \n\nYou: W-wait I'm right here. ");
+		}
+		function person2(){
+			window.alert("Girl 1: 'Does anyone know if she came?' \n\nGirl 2: 'What? You haven't heard? She died in a car accident a few days ago.' \n\nBoy: 'Yeah, they said she was in a coma after it and wouldn't wake up.' ");
+		}
+		function person3(){
+			window.alert("You: H-hi you guys! \n\nBoy: 'Have you seen ... around at the party?' \n\nGirl: 'No, I don't think she's here, last I heard she was in the hospital...' ");
+		}
+		function person4(){
+			window.alert("Boy: 'It's such a shame ... passed away. It's her birthday today...' \n\nBoy 2: 'Oh no, that's awful. I was hoping she'd wake up from her coma.'");
+		}
+		function newwindow(){
+			window.location = "3.html";
+		}
+
+
+
+	</script>
+
+</body>

@@ -1,0 +1,98 @@
+body{
+	background-color: black;
+}
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#master {
+	position:relative;
+	top:10px;
+	left:6%;
+	border:none;
+	width:800px;
+	height:2000px;
+}
+#doorbell{
+	position: absolute;
+	z-index: 2;  
+	top: 156px;
+	left: 302px;  
+}
+#doorbell:hover{
+	opacity: 0;
+	cursor:pointer;
+	}
+
+#pearl{
+	position: absolute;  
+	top: 3.3%;
+	left: 14.7%;
+	z-index: 1;  
+}
+.ppl{
+	
+}
+.ppl:hover{
+	cursor:pointer;
+	opacity: 0;
+}
+#page2{
+	position: absolute;
+	left:220px;
+	top:54px;
+}
+#ppl1{
+	position: absolute;
+	left:121px;
+	top:724px;
+	z-index: 1;	
+}
+#ppl2{
+	position: absolute;
+	left:108px;
+	top:330px;
+}
+#ppl3{
+	position: absolute;
+	left:641px;
+	top:225px;
+}
+#ppl4{
+	position: absolute;
+	left:946px;
+	top:402px;
+}
+
+#party{
+	position: absolute;
+	z-index: -1;    
+	top: 3.7%;
+	left: 15%;
+}
+#photo{
+	position: absolute;
+	z-index: 1;
+	top:897px;
+	left:222px;
+	height: 258px;
+}
+#photo:hover {
+	opacity: 0;
+}
+#frame {
+	position: absolute;
+	top:906px;
+	left:190px;	
+}
+#elevatorbutt{
+	position: absolute;
+	z-index: 1;
+	cursor:pointer;
+	top:1596px;
+	right:-26px;
+}
+#elevatorbutt:hover{
+	opacity:0;
+}

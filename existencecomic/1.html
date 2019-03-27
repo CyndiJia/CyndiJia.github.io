@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+	<title>JS PROJECT</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+	<div id="master1">
+		<img id="phone" src="phone.png" onclick="popup()">
+
+		<div align="middle">
+			
+			<img id="page1" src="1.png">
+			<img id="page2" onmouseover="playAud()" src="2.png ">
+
+		 </div>
+	</div>
+
+	<audio id="myaudio" hidden="true">
+		<source src="alarm.mp3" type="audio/mpeg">
+	</audio>
+	   
+	<script>
+	 	var aud = document.getElementById("myaudio");
+	 	function playAud(){
+	 		aud.play();
+	 	}
+
+		function popup() {
+		var r = confirm("Let's go to the party!");
+		if (r == true) {
+			window.location = '2.html';
+		} else {}
+	   
+	}	
+
+	</script>
+
+
+</body>
+

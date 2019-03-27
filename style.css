@@ -22,6 +22,18 @@ a{
 	text-decoration: none;
 }
 
+.intro{
+	color:white;
+	font-size:135%;
+	margin-top: 2em;
+	margin-right:4.5em;
+}
+
+.intropic{
+	margin-top: 3em;
+	margin-left: 1em;
+}
+
 .projecttitles{
 	text-align: center;
 	color: white;

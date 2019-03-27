@@ -1,0 +1,28 @@
+body{
+	background-color: black;
+
+}
+
+.wrapper{
+	text-align: center;
+}
+
+button{
+	color: #c7baba;
+	font-size: 70px;
+	text-align: center;
+	background-color: black;
+	border:none;
+	left: auto;
+	right: auto;
+	padding-top: 20%;
+
+
+
+}
+button:hover{
+	color: white;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+    text-shadow: 0 0 10px white;
+}
