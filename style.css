@@ -34,6 +34,39 @@ a{
 	margin-left: 1em;
 }
 
+
+.coverpic{
+	position: relative;
+	filter: grayscale(1) brightness(1.1);
+	-webkit-filter: grayscale(1) brightness(1.1);
+  	transition: filter 0.5s;
+  	transition: opacity 0.3s;
+}
+
+.projects:hover .coverpic{
+	filter: none;
+	-webkit-filter: grayscale(0);
+	transition: filter 0.5s;
+}
+
+.projects:hover .titledisplay{
+	opacity: 1;
+	transition: opacity 0.4s;
+}
+
+.titledisplay{
+	position: relative;
+	bottom:7.5em;
+	opacity: 0;
+	color:white;
+
+}
+
+.pintro{
+	color:white;
+}
+
+
 .projecttitles{
 	text-align: center;
 	color: white;
