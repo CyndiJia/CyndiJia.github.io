@@ -62,10 +62,6 @@ a{
 
 }
 
-.pintro{
-	color:white;
-}
-
 
 .projecttitles{
 	text-align: center;
@@ -77,19 +73,26 @@ a{
 	font-size: 300%;
 }
 
+.documentation{
+	margin-top: 24em;
+	margin-left: 8em;
+	margin-right: 12em;
+	color:white;
+	font-size: 130%;
+}
+
 .video-wrap {
      position: relative;
      /*padding-bottom: 56.25%; !* 16:9 *!*/
      padding-bottom: 53.25%;
      padding-top: 25px;
      height: 0;
-        }
+     }
 .video-wrap iframe {
      position: absolute;
-     margin-top: 4em;
-     margin-left: 12em;
-     width: 60%;
-     height: 60%;
+     margin-left: 10em;
+     width: 67%;
+     height: 67%;
     }
       
 
